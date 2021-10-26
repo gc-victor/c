@@ -1,0 +1,31 @@
+{
+    "name": "t",
+    "description": "T is a micro-library (<800 B) to create DOM Trees using tagged templates.",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "main": "dist/esm/index.js",
+    "umd:main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "unpkg": "dist/cjs/index.js",
+    "typings": "src/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git@gc-victor:gc-victor/t.git"
+    },
+    "keywords": [],
+    "dependencies": {
+        "p": "git+https://github.com/gc-victor/p.git#22054155b4d73b7850f639b5f4599f7a101b882c"
+    },
+    "devDependencies": {
+        "esbuild": "0.13.4",
+        "esm": "3.2.25",
+        "gzip-size": "6.0.0",
+        "jsdom": "18.0.0",
+        "prettier": "2.4.1",
+        "t-t": "git+https://github.com/gc-victor/t-t.git#138e449bf3ee31c9d438ae88c8363148864b3c45"
+    },
+    "files": [
+        "dist"
+    ]
+}
