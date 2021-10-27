@@ -106,6 +106,25 @@ const App = c(({ cleanup, execute, props, update }) => {
 -   **props**: are the properties used to send data from one component to another
 -   **update**: manages the component states, you can use more than once in a single component. It returns an array, where the first item is a function with the current state, and the second is the setter
 
+A key or name attribute is required to keep the focus of an active element when its content change.
+
+Using the T library:
+```javascript
+t`<input name="input" value="${variable}" />`
+```
+
+Or
+
+```javascript
+t`<button key="count">Count - ${variable}</button>`
+```
+
+Using plain JS:
+
+```javascript
+buttonElement.__key__ = 'count';
+```
+
 ## Acknowledgments
 
 ### Inspiration
