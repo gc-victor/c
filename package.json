@@ -1,6 +1,6 @@
 {
-    "name": "t",
-    "description": "T is a micro-library (<800 B) to create DOM Trees using tagged templates.",
+    "name": "c",
+    "description": "C is a micro-library (<2 KB) to create reactive components and patch DOM Trees.",
     "version": "0.0.0",
     "license": "MIT",
     "private": true,
@@ -11,7 +11,7 @@
     "typings": "src/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git@gc-victor:gc-victor/t.git"
+        "url": "git@gc-victor:gc-victor/c.git"
     },
     "keywords": [],
     "dependencies": {
